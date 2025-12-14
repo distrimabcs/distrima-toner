@@ -1,73 +1,170 @@
 <!DOCTYPE html>
-max-width: 140px;
-}
-</style>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DISTRIMA TONER | Tóner Genérico de Calidad</title>
+  <meta name="description" content="Venta de tóner genérico de alta calidad. Imprime más, gasta menos. Atención personalizada y pedidos por WhatsApp." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --secondary: #2563eb;
+      --accent: #22c55e;
+      --bg: #f8fafc;
+      --text: #334155;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), #020617);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+    .btn {
+      background: var(--accent);
+      color: white;
+      padding: 16px 30px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      display: inline-block;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      color: var(--primary);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: var(--secondary);
+    }
+    .highlight {
+      background: linear-gradient(135deg, #e0f2fe, #f0fdf4);
+      border-radius: 30px;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    footer {
+      background: #020617;
+      color: #e5e7eb;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer p {
+      margin: 6px 0;
+      font-size: 0.95rem;
+    }
+  .logo {
+      display: block;
+      margin: 0 auto 20px auto;
+      max-width: 140px;
+    }
+  </style>
 </head>
 <body>
 
+  <!-- HERO -->
+  <header>
+  
+    <img src="logo.png" alt="DISTRIMA TONER Logo" style="max-width:120px;margin-bottom:20px;">
+    <h1>DISTRIMA TONER</h1>
+    <p>Venta de tóner genérico de alta calidad</p>
+    <p><strong>Imprime más, gasta menos</strong></p>
+    <a class="btn" href="https://wa.me/526123091076" target="_blank">Cotiza por WhatsApp</a>
+  </header>
 
-<!-- HERO -->
-<header>
-<img src="logo.png" alt="DISTRIMA TONER Logo" style="max-width:120px;margin-bottom:20px;">
-<h1>DISTRIMA TONER</h1>
-<p>Venta de tóner genérico de alta calidad</p>
-<p><strong>Imprime más, gasta menos</strong></p>
-<a class="btn" href="https://wa.me/526123091076" target="_blank">Cotiza por WhatsApp</a>
-</header>
+  <!-- QUIENES SOMOS -->
+  <section>
+    <h2>¿Quiénes somos?</h2>
+    <p style="max-width:800px;margin:auto;text-align:center;">
+      En <strong>DISTRIMA TONER</strong> nos especializamos en la venta de tóner genérico confiable y económico
+      para impresoras de todas las marcas. Atendemos oficinas, negocios y usuarios particulares
+      con atención directa y personalizada.
+    </p>
+  </section>
 
+  <!-- PRODUCTOS -->
+  <section>
+    <h2>Nuestras marcas</h2>
+    <div class="grid">
+      <div class="card"><h3>HP</h3><p>Compatibilidad garantizada</p></div>
+      <div class="card"><h3>Brother</h3><p>Alto rendimiento</p></div>
+      <div class="card"><h3>Canon</h3><p>Calidad profesional</p></div>
+      <div class="card"><h3>Samsung</h3><p>Texto nítido</p></div>
+      <div class="card"><h3>Epson</h3><p>Tinta genérica confiable</p></div>
+    </div>
+  </section>
 
-<!-- QUIENES SOMOS -->
-<section>
-<h2>¿Quiénes somos?</h2>
-<p style="max-width:800px;margin:auto;text-align:center;">
-En <strong>DISTRIMA TONER</strong> nos especializamos en la venta de tóner genérico confiable y económico
-para impresoras de todas las marcas. Atendemos oficinas, negocios y usuarios particulares
-con atención directa y personalizada.
-</p>
-</section>
+  <!-- BENEFICIOS -->
+  <section>
+    <h2>Ventajas</h2>
+    <div class="grid">
+      <div class="card">💰 Ahorro frente al original</div>
+      <div class="card">🖨️ Excelente rendimiento</div>
+      <div class="card">🚚 Envíos rápidos</div>
+      <div class="card">🤝 Atención personalizada</div>
+    </div>
+  </section>
 
+  <!-- CTA -->
+  <section class="highlight">
+    <h2>¿No sabes qué tóner usa tu impresora?</h2>
+    <p>Escríbenos y te asesoramos al instante.</p>
+    <a class="btn" href="https://wa.me/526123091076" target="_blank">Hablar por WhatsApp</a>
+  </section>
 
-<!-- PRODUCTOS -->
-<section>
-<h2>Nuestras marcas</h2>
-<div class="grid">
-<div class="card"><h3>HP</h3><p>Compatibilidad garantizada</p></div>
-<div class="card"><h3>Brother</h3><p>Alto rendimiento</p></div>
-<div class="card"><h3>Canon</h3><p>Calidad profesional</p></div>
-<div class="card"><h3>Samsung</h3><p>Texto nítido</p></div>
-<div class="card"><h3>Epson</h3><p>Tinta genérica confiable</p></div>
-</div>
-</section>
-
-
-<!-- BENEFICIOS -->
-<section>
-<h2>Ventajas</h2>
-<div class="grid">
-<div class="card">💰 Ahorro frente al original</div>
-<div class="card">🖨️ Excelente rendimiento</div>
-<div class="card">🚚 Envíos rápidos</div>
-<div class="card">🤝 Atención personalizada</div>
-</div>
-</section>
-
-
-<!-- CTA -->
-<section class="highlight">
-<h2>¿No sabes qué tóner usa tu impresora?</h2>
-<p>Escríbenos y te asesoramos al instante.</p>
-<a class="btn" href="https://wa.me/526123091076" target="_blank">Hablar por WhatsApp</a>
-</section>
-
-
-<!-- FOOTER -->
-<footer>
-<p><strong>DISTRIMA TONER</strong></p>
-<p>Envíos a toda la República Mexicana</p>
-<p>WhatsApp: 612 309 1076</p>
-<p>Horario: 8:00 a.m. – 10:00 p.m.</p>
-</footer>
-
+  <!-- FOOTER -->
+  <footer>
+    <p><strong>DISTRIMA TONER</strong></p>
+    <p>Envíos a toda la República Mexicana</p>
+    <p>WhatsApp: 612 309 1076</p>
+    <p>Horario: 8:00 a.m. – 10:00 p.m.</p>
+  </footer>
 
 </body>
 </html>
